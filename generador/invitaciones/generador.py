@@ -33,7 +33,7 @@ with open('../code.txt', encoding="utf8") as codetxt:
 
 for i in invitados:
     print(invitados[n])
-    doc_name = invitados[n] + ".html"
+    doc_name = data[0] + "-" + invitados[n] + ".html"
     
     new_code = code.replace("?NAME?", invitados[n])
     new_code = new_code.replace("?PROJECT?", data[0])
