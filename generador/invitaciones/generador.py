@@ -31,8 +31,22 @@ with open('../code.txt', encoding="utf8") as codetxt:
         code = codetxt.read()
         codetxt.close()
 
+aux = 0
+aux2 = 0
+ninvitados =[]
 for i in invitados:
-    print(invitados[n])
+    aux += 1
+    
+aux /= 2
+
+while aux>aux2:
+    aux2 += 1
+    ninvitados.append(aux2)
+    
+print(ninvitados)
+
+for i in ninvitados:
+    print(invitados[n] + " " + invitados[n+1])
     doc_name = data[0] + "-" + invitados[n] + ".html"
     
     new_code = code.replace("?NAME?", invitados[n])
