@@ -36,12 +36,17 @@ for i in invitados:
     doc_name = data[0] + "-" + invitados[n] + ".html"
     
     new_code = code.replace("?NAME?", invitados[n])
+    
+    n += 1
+    
     new_code = new_code.replace("?PROJECT?", data[0])
     new_code = new_code.replace("?DATE?", data[1])
     new_code = new_code.replace("?TIME?", data[2])
     new_code = new_code.replace("?PLACE?", data[3])
     new_code = new_code.replace("?ADDRESS?", data[4])
     new_code = new_code.replace("?URL?", data[5])
+    new_code = new_code.replace("?CSS?", invitados[n])
+    
 
     with open(doc_name, "w", encoding="utf8") as invitacion:
         invitacion.write(new_code)
