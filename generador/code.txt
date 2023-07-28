@@ -14,7 +14,7 @@
 <body>
 	<header>
 		<div>
-			<img class="img_portada" src="../visuales/logotipos/logotipo.jpg">
+			<img class="img_portada" src="../visuales/logotipos/logotipo.png">
 		</div>
 	</header>
 	<div class="negro_separador"></div>
@@ -33,7 +33,7 @@
 		</div>
 		<div class="neon_separador"></div>
 		<div class="img_seccion">
-			<img src="../visuales/referencias/2.png">
+			<img src="../visuales/referencias/?IMG?.jpg">
 		</div>
 		<div class="neon_separador"></div>
 		<div class="seccion-2">
