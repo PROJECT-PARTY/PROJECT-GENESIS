@@ -55,8 +55,10 @@ for i in ninvitados:
     
     if invitados[n] == "vip.css":
         img = "vip"
+        much = "130"
     elif invitados[n] == "general.css":
         img = "general"
+        much = "80"
     
     new_code = new_code.replace("?PROJECT?", data[0])
     new_code = new_code.replace("?DATE?", data[1])
@@ -66,6 +68,7 @@ for i in ninvitados:
     new_code = new_code.replace("?URL?", data[5])
     new_code = new_code.replace("?CSS?", invitados[n])
     new_code = new_code.replace("?IMG?", img)
+    new_code = new_code.replace("?MUCH?", much)
     
 
     with open(doc_name, "w", encoding="utf8") as invitacion:

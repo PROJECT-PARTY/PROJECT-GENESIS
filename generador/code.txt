@@ -74,7 +74,7 @@
 	<footer>
 		<div>
 			<p>
-				Esta invitación tuvo un valor en su compra de $70 mxn. Esta invitación es canjeable en su rembolso por $30 mxn. Esta invitación se puede transferir a otra persona por $20 mxn.
+				Esta invitación tuvo un valor en su compra de $?MUCH? mxn. Esta invitación es canjeable en su rembolso por la mitad de su valor. Esta invitación se puede transferir a otra persona por 1/4 de su valor.
 			</p>
 			<a href="https://www.instagram.com/project_party5/" class="instagram">
 				Da clic para seguirnos en instagram<i class="fa-brands fa-instagram iconos"></i>
